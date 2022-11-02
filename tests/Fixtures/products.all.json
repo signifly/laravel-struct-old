@@ -1,0 +1,49 @@
+{
+    "Products": [
+      {
+        "Id": 18,
+        "Name": {
+          "en-GB": "Mascot work pants",
+          "da-DK": "Mascot arbejdsbukser"
+        },
+        "Created": "2023-04-15T14:58:52.472463+02:00",
+        "CreatedBy": "Struct",
+        "LastModified": "2023-04-15T14:58:52.472463+02:00",
+        "LastModifiedBy": "Struct",
+        "VariationDefinitionUid": "4e847750-30c8-4d95-b0b7-ed0de5bbfec4",
+        "IsArchived": false,
+        "ProductStructureUid": "05758c14-959e-4b59-abe5-060182649b55"
+      },
+      {
+        "Id": 19,
+        "Name": {
+          "en-GB": "Apple Iphone",
+          "da-DK": "Apple Iphone"
+        },
+        "Created": "2023-01-05T13:58:52.472463+01:00",
+        "CreatedBy": "Struct",
+        "LastModified": "2022-11-16T13:58:52.472463+01:00",
+        "LastModifiedBy": "Struct",
+        "VariationDefinitionUid": "4e847750-30c8-4d95-b0b7-ed0de5bbfec4",
+        "IsArchived": false,
+        "ProductStructureUid": "05758c14-959e-4b59-abe5-060182649b55"
+      },
+      {
+        "Id": 20,
+        "Name": {
+          "en-GB": "Samsung 8K series TV",
+          "da-DK": "Samsung 8K serie"
+        },
+        "Created": "2022-10-22T14:58:52.472463+02:00",
+        "CreatedBy": "Struct",
+        "LastModified": "2022-10-22T14:58:52.472463+02:00",
+        "LastModifiedBy": "Struct",
+        "VariationDefinitionUid": "4e847750-30c8-4d95-b0b7-ed0de5bbfec4",
+        "IsArchived": false,
+        "ProductStructureUid": "05758c14-959e-4b59-abe5-060182649b55"
+      }
+    ],
+    "Total": 20102,
+    "Remaining": 20100,
+    "LastId": 20
+  }

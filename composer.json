@@ -1,0 +1,54 @@
+{
+    "name": "signifly/laravel-struct",
+    "description": "A simple package to handle communication with Struct API",
+    "homepage": "https://github.com/signifly/laravel-struct",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Ro Kleine Sonne",
+            "email": "ro@signifly.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": "^7.4|^8.0",
+        "guzzlehttp/guzzle": "^7.2",
+        "illuminate/contracts": "^8.0|^9.0",
+        "illuminate/http": "^8.0|^9.0",
+        "illuminate/routing": "^8.0|^9.0",
+        "illuminate/support": "^8.0|^9.0"
+    },
+    "require-dev": {
+        "friendsofphp/php-cs-fixer": "^3.0",
+        "orchestra/testbench": "^6.0|^7.0",
+        "phpunit/phpunit": "^9.0",
+        "signifly/php-config": "^1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Signifly\\Struct\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Signifly\\Struct\\Tests\\": "tests"
+        }
+    },
+    "scripts": {
+        "test": "vendor/bin/phpunit",
+        "fix": "vendor/bin/php-cs-fixer fix"
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Signifly\\Struct\\StructServiceProvider"
+            ],
+            "aliases": {
+                "Struct": "Signifly\\Struct\\Support\\Facades\\Struct"
+            }
+        }
+    }
+}

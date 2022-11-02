@@ -1,0 +1,34 @@
+[
+  {
+    "Values": {
+      "Name": [
+        {
+          "CultureCode": "en-GB",
+          "Data": "Mascot work pants"
+        },
+        {
+          "CultureCode": "da-DK",
+          "Data": "Mascot arbejdsbukser"
+        }
+      ]
+    },
+    "VariationDefinitionUid": "4e847750-30c8-4d95-b0b7-ed0de5bbfec4",
+    "ProductStructureUid": "05758c14-959e-4b59-abe5-060182649b55"
+  },
+  {
+    "Name": {
+      "en-GB": "Apple Iphone",
+      "da-DK": "Apple Iphone"
+    },
+    "VariationDefinitionUid": "4e847750-30c8-4d95-b0b7-ed0de5bbfec4",
+    "ProductStructureUid": "05758c14-959e-4b59-abe5-060182649b55"
+  },
+  {
+    "Name": {
+      "en-GB": "Samsung 8K series TV",
+      "da-DK": "Samsung 8K serie"
+    },
+    "VariationDefinitionUid": "4e847750-30c8-4d95-b0b7-ed0de5bbfec4",
+    "ProductStructureUid": "05758c14-959e-4b59-abe5-060182649b55"
+  }
+]

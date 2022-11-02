@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<phpunit bootstrap="vendor/autoload.php"
+         backupGlobals="false"
+         backupStaticAttributes="false"
+         colors="true"
+         verbose="true"
+         convertErrorsToExceptions="true"
+         convertNoticesToExceptions="true"
+         convertWarningsToExceptions="true"
+         processIsolation="false"
+         stopOnFailure="false">
+    <testsuites>
+        <testsuite name="Signifly Test Suite">
+            <directory>tests</directory>
+        </testsuite>
+    </testsuites>
+    <filter>
+        <whitelist>
+            <directory suffix=".php">src/</directory>
+        </whitelist>
+    </filter>
+    <php>
+        <env name="STRUCT_API_KEY" value="struct.api.key.goes.here" />
+        <env name="STRUCT_PASSWORD" value="struct.password.goes.here" />
+        <env name="STRUCT_DOMAIN" value="struct-domain.goes.here" />
+        <env name="STRUCT_API_VERSION" value="2019-07" />
+        <env name="STRUCT_WEBHOOK_SECRET" value="secret" />
+    </php>
+</phpunit>

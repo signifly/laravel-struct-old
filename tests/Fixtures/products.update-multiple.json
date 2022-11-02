@@ -1,0 +1,47 @@
+[
+  {
+    "ProductId": 20111,
+    "UpdateModel": {
+      "Values": {
+        "Name": "Samsung QE65Q950T",
+        "PrimaryImage": "3013"
+      }
+    }
+  },
+  {
+    "ProductId": 5635,
+    "UpdateModel": {
+      "Classifications": {
+        "CategoryIds": [
+          392,
+          23
+        ],
+        "Primary": 23
+      }
+    }
+  },
+  {
+    "ProductId": 18863,
+    "UpdateModel": {
+      "Classifications": {
+        "CategoryIds": [
+          392,
+          23
+        ],
+        "Primary": 23
+      },
+      "Values": {
+        "Description": [
+          {
+            "CultureCode": "en-GB",
+            "Data": "Apples flagship phone"
+          },
+          {
+            "CultureCode": "da-DK",
+            "Data": "Apples flagskib"
+          }
+        ]
+      }
+    }
+  }
+]

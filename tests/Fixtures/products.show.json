@@ -1,0 +1,14 @@
+{
+    "Id": 2011,
+    "Name": {
+      "en-GB": "Mascot work pants",
+      "da-DK": "Mascot arbejdsbukser"
+    },
+    "Created": "2023-04-15T14:58:52.447014+02:00",
+    "CreatedBy": "Struct",
+    "LastModified": "2023-04-15T14:58:52.447014+02:00",
+    "LastModifiedBy": "Struct",
+    "VariationDefinitionUid": "c3555e21-7728-4cda-a534-028449e61365",
+    "IsArchived": false,
+    "ProductStructureUid": "e56d09fa-1ec1-42f4-9487-a9a8fdb8e13e"
+}
