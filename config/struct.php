@@ -12,7 +12,7 @@ return [
         /*
          * The password from private app credentials.
          */
-        'base_uri' => env('STRUCT_PASSWORD', ''),
+        'base_uri' => env('STRUCT_BASE_URI', ''),
     ],
 
     'webhooks' => [
